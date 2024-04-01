@@ -21,54 +21,54 @@ public class SnakeLadder_UC3 {
                 System.out.println("stay in the same position");
 
             if(current_position == ladder_start[0]){
-                current_position = 37;
+                current_position += diceRoll;
                 System.out.println("You got a ladder");
                 System.out.println(current_position);
             }
             else if(current_position == ladder_start[1]){
-                current_position = 30;
+                current_position += diceRoll;
                 System.out.println("You got a ladder");
                 System.out.println(current_position);
             }
             else if(current_position == ladder_start[2]){
-                current_position = 42;
+                current_position += diceRoll;
                 System.out.println("You got a ladder");
                 System.out.println(current_position);
             }
             else if(current_position == ladder_start[3]){
-                current_position = 76;
+                current_position += diceRoll;
                 System.out.println("You got a ladder");
                 System.out.println(current_position);
             }
             else if(current_position == ladder_start[4]){
-                current_position = 67;
+                current_position += diceRoll;
                 System.out.println("You got a ladder");
                 System.out.println(current_position);
             }
 
 
             if(current_position == snake_start[0]){
-                current_position = 10;
+                current_position -= diceRoll;
                 System.out.println("You bitten by a snake.");
                 System.out.println(current_position);
             }
             else if(current_position == snake_start[1]){
-                current_position = 26;
+                current_position -= diceRoll;
                 System.out.println("You bitten by a snake.");
                 System.out.println(current_position);
             }
             else if(current_position == snake_start[2]){
-                current_position = 18;
+                current_position -= diceRoll;
                 System.out.println("You bitten by a snake.");
                 System.out.println(current_position);
             }
             else if(current_position == snake_start[3]){
-                current_position = 24;
+                current_position -= diceRoll;
                 System.out.println("You bitten by a snake.");
                 System.out.println(current_position);
             }
             else if(current_position == snake_start[4]){
-                current_position = 56;
+                current_position -= diceRoll;
                 System.out.println("You bitten by a snake.");
                 System.out.println(current_position);
             }
